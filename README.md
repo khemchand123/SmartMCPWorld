@@ -1,11 +1,14 @@
-# Product & Hospital Search
+# The GIES (Generalised Indexer for ElasticSearch)
 
 ## Project Description
-Our project is based on both **Product** and **Hospital** domains.  
-Although they are independent of each other, the **intention of solving the problem is the same**.
+Our project is based on a great idea which helps us index any data provided in a file to our elasticIndex. Our process generates runs the flow in the following way:
+1. send the csv, that has your data is represented in and generates an index over the elastic.
+2. We can send the query in Natural language and LLM+MCP will together bring the dream of fetching data easily.
 
-
-
+## Impact of the Project
+1. If I am able to index anthing I need, using the best indexing setting and mapping which are based on data and queries that owner gives. 
+2. This is first of its kind as even elasticsearch doesnt work on analyzer, but we are working on the same.
+3. This will take away the load of being an expert in elastic before indexing the same and shall help in making the system more robust for searching. 
 
 ## Team
 
@@ -32,6 +35,13 @@ We understand:
 This type of intelligent contextual understanding is **not possible with leading e-commerce platforms** at the moment.  
 That’s why we are **hacking the impossible**!
 
+- **Cherry On The Cake**
+
+We understand:
+- Data provided by the user in **csv format**.
+- **Few queries** that user thinks their **clients will search**
+
+We **generate a well suited index** for the given situation that helps **producing beautiful response within few seconds from elastic**.
 
 
 
@@ -53,9 +63,7 @@ That’s why we are **hacking the impossible**!
 
     2 Tools and 1 Model via OpenAI Chat Model
     a) Claude API model (set your API key)
-    b) Elastic MCP Server – interacts with the LLM to reason and fetch data from Elasticsearch (set encoded authorization key for Elasticsearch DB authentication)
-    c) HTTP endpoint for ES – since Elastic MCP Server doesn’t natively support retrieving nested index field mappings, we defined a custom exception in the prompt to call this tool (set username/password for Elasticsearch DB authentication).
-
+    b) Elastic MCP Server – **hosted on Cequence**, interacts with the LLM to reason and fetch data from Elasticsearch (set encoded authorization key for Elasticsearch DB authentication)
 
 
 ### Tech Stack
@@ -67,6 +75,7 @@ That’s why we are **hacking the impossible**!
   N8N Workflow Orchestration
   Descope
   Cequence
+  Java
 
 
 
