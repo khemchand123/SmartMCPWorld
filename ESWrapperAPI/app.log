@@ -1,0 +1,22 @@
+nohup: ignoring input
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.18)
+
+2025-09-10 21:55:32.863  INFO 28200 --- [           main] elastic.search.wrapper.Application       : Starting Application v1.0-SNAPSHOT using Java 11.0.28 on khem-chand-ThinkPad-L14-Gen-3 with PID 28200 (/home/khem-chand/work/ElasticSearchWrapper/target/ElasticSearchWrapper-1.0-SNAPSHOT.jar started by khem-chand in /home/khem-chand/work/ElasticSearchWrapper)
+2025-09-10 21:55:32.867  INFO 28200 --- [           main] elastic.search.wrapper.Application       : No active profile set, falling back to 1 default profile: "default"
+2025-09-10 21:55:33.482  INFO 28200 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-10 21:55:33.491  INFO 28200 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-10 21:55:33.491  INFO 28200 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2025-09-10 21:55:33.545  INFO 28200 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-10 21:55:33.546  INFO 28200 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 641 ms
+2025-09-10 21:55:33.814  INFO 28200 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-10 21:55:33.822  INFO 28200 --- [           main] elastic.search.wrapper.Application       : Started Application in 1.242 seconds (JVM running for 1.454)
+2025-09-10 21:55:58.239  INFO 28200 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-10 21:55:58.239  INFO 28200 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-10 21:55:58.239  INFO 28200 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
