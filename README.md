@@ -61,7 +61,7 @@ We **generate a well suited index** for the given situation that helps **produci
 
     The workflow uses an AI Agent with:
 
-    2 Tools and 1 Model via OpenAI Chat Model
+    1 Tools and 1 Model via OpenAI Chat Model
     a) Claude API model (set your API key)
     b) Elastic MCP Server – **hosted on Cequence**, interacts with the LLM to reason and fetch data from Elasticsearch (set encoded authorization key for Elasticsearch DB authentication)
 
